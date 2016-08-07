@@ -133,6 +133,7 @@ SOURCES += aboutdialog.cpp \
     createtileobjecttool.cpp \
     document.cpp \
     documentmanager.cpp \
+    editframedurationsdialog.cpp \
     editor.cpp \
     editpolygontool.cpp \
     eraser.cpp \
@@ -329,6 +330,7 @@ HEADERS += aboutdialog.h \
     createtileobjecttool.h \
     document.h \
     documentmanager.h \
+    editframedurationsdialog.h \
     editor.h \
     editpolygontool.h \
     eraser.h \
@@ -465,6 +467,7 @@ HEADERS += aboutdialog.h \
 FORMS += aboutdialog.ui \
     addpropertydialog.ui \
     commanddialog.ui \
+    editframedurationsdialog.ui \
     exportasimagedialog.ui \
     imagecolorpickerwidget.ui \
     mainwindow.ui \

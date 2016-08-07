@@ -22,6 +22,7 @@
 
 #include <QDialog>
 #include <QModelIndex>
+#include <QItemSelection>
 
 namespace Ui {
 class TileAnimationEditor;
@@ -66,8 +67,10 @@ private slots:
     void framesEdited();
     void tileAnimationChanged(Tile *tile);
     void currentObjectChanged(Object *object);
+    void selectionChanged(QItemSelection, QItemSelection);
 
     void addFrameForTileAt(const QModelIndex &index);
+    void editFrameDurations();
 
     void undo();
     void redo();
